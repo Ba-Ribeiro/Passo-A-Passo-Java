@@ -1,0 +1,19 @@
+package br.com.entra21.PassoAPasso.Java.Vetores;
+
+public class Dicas {
+
+	public static void main(String[] args) {
+		
+		int i; // 
+		int [] x = new int [5]; // temos um vetor chamado x que pode armazenar valores inteiros de tamanho 5 ou sejá pode armazenar até 5 valores inteiros
+		
+		for (i=0;i<5;++i) { // atraves de um ciclo for nós percorremos cada membro desse vetor pra jogar na tela desse usuario
+							// da um print no valor de cada vetor 
+			System.out.println(x[i]); 
+			
+			// Qual o valor que da pra ver na tela se for executado esse programa nesse exato momento 
+		}
+
+	}
+
+}

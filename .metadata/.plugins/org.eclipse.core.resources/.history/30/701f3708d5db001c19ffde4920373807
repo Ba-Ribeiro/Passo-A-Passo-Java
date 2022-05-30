@@ -1,0 +1,20 @@
+package br.com.entra21.passoapasso.java13.While;
+
+public class main {
+
+	public static void main(String[] args) {
+		// Whille = Lupin, Ciclo, l=Laço, Repetição
+		// // Escrever While que quer dizer enquanto o que estiver entre () for verdadeira. Será executado o que estiver entre {}.
+
+		
+		int i = 1; // criar uma variavel 
+		while(i<101){ //precisa criar uma condição. Enquanto i for menor que 101 eu quero que o que estiver entre os {} sejá executado
+			System.out.println(i);
+		
+		}
+		
+
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package br.com.entra21.PassoAPasso.Java.OperadoresLogicos;
+
+import java.util.Scanner;
+
+public class Main { // Criar um programa que irá nos avisar se o número é um número par ou um número impar
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in); 
+		System.out.println("Insira um número inteiro");//vou pedir que o usuario digite um número
+		int numero=input.nextInt()   // vou criar uma variavel inteira que vai se igual ao objeto input
+	}
+
+}

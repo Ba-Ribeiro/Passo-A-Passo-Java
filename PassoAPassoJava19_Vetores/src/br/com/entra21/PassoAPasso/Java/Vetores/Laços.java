@@ -1,0 +1,35 @@
+package br.com.entra21.PassoAPasso.Java.Vetores;
+
+import java.util.Scanner;
+
+public class Laços {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in); // permite que o usuario forneça as notas dos alunos
+
+		int numAlunos = 5;
+		double[] notaAlunos = new double[numAlunos];
+
+		for (int i = 0; i < numAlunos; ++i) { // criei uma variavel i que é = 0.
+												// enquanto i for menor que numAlunos que é = 5, vai ser acrescentado +1 na
+												// variavel
+			
+			System.out.println("Insira a nota do" +" "+ (i + 1) +" "+ "aluno."); // a mensagem que aparecera para o usuario
+			
+			notaAlunos[i] = input.nextDouble(); // quero armazenar o valor que o usuario digitar na primeira posição do
+												// vetor nota alunos,
+												// lembrando que a primeira posição é 0
+			// Atravez de um ciclo for é permitido que o usuario insira a nota dos alunos
+			// até o final do vetor
+		}// i+1 pq na primeira execução do ciclo a variavel i tem o valor inicial de 0 por isso foi adicionado 1 no valor da variavel i.
+		
+		// Como ler/dar um print nos valores de um vetor
+		for (int i = 0; i < numAlunos; ++i) { // exemplo de como acessar cada membro acessando atraves do ciclo For.
+	
+		System.out.println("->" + notaAlunos[i]); // esse ciclo sera executado baseado na quantidade de alunos e a cada vez que o ciclo for executado
+												 // vai ser dado um print no valor que estiver armazenado no vetor notaAluno na posição i
+		}		// como i faz parte do ciclo quer dizer que a cada vez que o ciclo for executado vou estar lendo 1 membro do vetor
+		
+
+}
+}

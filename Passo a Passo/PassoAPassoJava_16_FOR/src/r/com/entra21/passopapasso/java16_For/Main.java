@@ -1,0 +1,19 @@
+package r.com.entra21.passopapasso.java16_For;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		for(int i=0; i<100; ++i) { // inserir uma informação entre (informação, condição e um incremento ). 
+		//i=0 executa 1 unica vez. enquato a condição for i<100. e quando ele for iniciar uma nova execução vai ser adiciona +1 na variavel i.  
+			// enquanto essa informação for verdadeira
+			// enquanto a condição for verdadeira esse ciclo for vai continuar ser executado.
+		
+		// não podemos ter multiplas comparações
+		System.out.println(i);
+	}
+
+}
+}

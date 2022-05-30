@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;PassoAPassoJava19_OperadoresCondicionais&apos;" deleteContents="false" description="Delete resource &apos;PassoAPassoJava19_OperadoresCondicionais&apos;" element1="/PassoAPassoJava19_OperadoresCondicionais" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1653786221024"/>
+</session>

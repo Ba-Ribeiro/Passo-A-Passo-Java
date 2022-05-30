@@ -1,0 +1,19 @@
+package br.com.entra21.passoapasso.java15.dowhile;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//do quer dizer faça
+		int i = 1; //3° Passo criar uma variavel
+		
+		do { //1° passo: vamos fazer primeiro o que estiver entre{} depois vamos controlar com o while
+		
+			System.out.println(i);// 5° passo:a cada vez que o ciclo do while for executado, eu quero que o valor da variavel i apareça na tela do usuario
+			++i; //6° vamos acrescentar o +1 no valor da variavel
+		} while(i<100); //2° passo: vamos controlar se a 
+				 //condição que estiver entre () for verdadeira.
+
+	}
+
+}

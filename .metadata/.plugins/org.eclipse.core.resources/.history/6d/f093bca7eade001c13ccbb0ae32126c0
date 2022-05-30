@@ -1,0 +1,14 @@
+package br.com.entra21.PassoAPasso.Java.Incremento.Decremento;
+
+public class Pos {
+	
+			public static void Pós (String[] args){
+			int a = 10;
+			
+			a++; // é um atalho para adiciona +1 ao valor já existente na variavel a. logo ficaria 1+10=11
+			
+			
+		}
+		}
+
+}

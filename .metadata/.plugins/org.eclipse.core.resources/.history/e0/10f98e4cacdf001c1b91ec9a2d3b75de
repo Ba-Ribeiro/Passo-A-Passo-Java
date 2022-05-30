@@ -1,0 +1,8 @@
+# Passo a Passo Java 
+
+## Sprint
+
+## Content
+
+- Aprendemos sobre dados primitivos, logo nenhum desses tem a capacidadem de armazenar um nome.
+- Logo foi criado o objeto Scanner. Ele que vai permitir que seja feita a captura do nome do usuario.

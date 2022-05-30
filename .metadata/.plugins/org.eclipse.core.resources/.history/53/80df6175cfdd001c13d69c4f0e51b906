@@ -1,0 +1,28 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Orientado a Objetos veio para tentar aproximar o mundo real, os objetos que existem ao nosso redor para programação
+		// Para facilitar a criação e manter um programa.
+		//em programação da pra encaixar praticamente tudo como sendo objeto;
+		// ex: pode dizer que o telefone tem as seguintes caracteristicas: tem peso, tamanho da tela em polegadas, tem um fabricante e 
+		//tem algumas ações: tira foto, navega na internet, assisti videos, escuta musica,
+		// logo um objeto existe 2 coisas: 1° seria os atributos: peso, altura, fabricante. 
+		//E existe alguns comportamentos ou ações: que seria o que podemos fazer com aqueles objetos
+	}
+//1° Passo Nomear a classe com o nome do objeto
+//2° Passo pensar o que seriam os atributos de um peixe na vida real: ela tem uma especie, tem tamanho,habitati.
+	String Especie = "Salmão";
+	int Peso = 30;
+	float tamanho = 0.80f;
+	String alimenta = "Camarão";
+	
+	public void peso() {
+		if(Peso<=30) {
+			System.out.println("Esse salmão está abaixo do peso ");
+		}else(Peso>45){
+		System.out.println("esse salmão está acima do peso");z
+		}
+		
+	}
+}
